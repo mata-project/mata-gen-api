@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS sale_items;
+
 CREATE TABLE sale_items (
     id SERIAL PRIMARY KEY,
     item_name VARCHAR(100),
